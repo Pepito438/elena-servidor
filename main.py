@@ -25,4 +25,3 @@ async def responder(mensaje: Mensaje):
         return {"respuesta": texto_respuesta}
     except Exception as e:
         return {"error": str(e)}
-        openai
